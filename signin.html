@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>geekbuying|Sign in</title>
+    <link rel="stylesheet" href="./style/signin.css" />
+  </head>
+  <body>
+    
+    <div id="signinbox">
+      <div id="textbox">
+        <div id="signintext">
+          <p class="signinheader">CREATE YOUR ACCOUNT</p>
+        </div>
+        <form id="formContainer">
+          <input type="text" id="username" placeholder="Username" required />
+          <input
+            type="mobileno"
+            id="mobileno"
+            placeholder="Mobile Number"
+            required
+          />
+          <input type="text" id="email" placeholder="Email id" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </form>
+        <div id="alert"></div>
+        <br />
+        <button class="signinbtn" onclick="storeDetails()">SIGN UP</button
+        ><br />
+        <p style="text-align: center">
+          Already have an account <span onclick="loginpage()">click Here</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/signin1.js"></script>

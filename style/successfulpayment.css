@@ -1,0 +1,30 @@
+.parent {
+    border: 1px solid #f2f2f5;
+    width: 50%;
+    height: 550px;
+    margin: auto;
+    margin-top: 20px !important;
+    /* background-color: #f2f2f5; */
+    background-image: linear-gradient(to right, rgb(213, 243, 209) , rgb(60, 134, 231));
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+    
+
+}
+#gif {
+    width: 75%;
+    height: 70%;
+    padding-left: 80px;
+}
+h2 {
+    text-align: center;
+    color:#283593;
+    font-weight: bold;
+    
+}
+#link {
+    padding-left: 38%;
+    color: #283593;
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+    font-weight: bold;
+    text-decoration: none;
+}

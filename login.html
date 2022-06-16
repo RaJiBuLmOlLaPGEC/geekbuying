@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>geekbuying|Login</title>
+    <link rel="stylesheet" href="./style/login.css" />
+  </head>
+  <body>
+    
+    <div id="loginbox">
+      <img
+        src="./geekbuying-removebg-preview.jpg"
+      />
+      <div class="loginbody">
+        <div class="loginheader">
+          Sign <span id="smallheader"> In </span>
+        </div>
+        <form id="login">
+          <input type="text" id="mobileno" placeholder="Email or Mobile Number" /><br />
+          <input type="password" id="password" placeholder="Enter Your Password" />
+        </form>
+        <p>
+          By Clicking Sign In I agree to the<span class="smallhead">
+            Terms of Use </span
+          >&<span id="small"> Privacy Policy</span>
+        </p>
+        <p>Don't have account <span class="continue1" onclick="signinpage()">Create a new Account</span></p>
+        <div id="alert"></div>
+        <div class="continue" onclick="checkcredentials()">SIGN IN</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./script/login.js"></script>
